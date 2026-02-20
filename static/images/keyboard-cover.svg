@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="Custom mechanical keyboard cover">
+  <rect width="1200" height="675" fill="#111827"/>
+  <rect x="250" y="180" width="700" height="320" rx="18" fill="#374151"/>
+  <g fill="#f59e0b">
+    <rect x="300" y="230" width="70" height="50" rx="8"/>
+    <rect x="390" y="230" width="70" height="50" rx="8"/>
+    <rect x="480" y="230" width="70" height="50" rx="8"/>
+    <rect x="570" y="230" width="70" height="50" rx="8"/>
+    <rect x="660" y="230" width="70" height="50" rx="8"/>
+    <rect x="750" y="230" width="70" height="50" rx="8"/>
+    <rect x="840" y="230" width="70" height="50" rx="8"/>
+  </g>
+  <g fill="#e5e7eb">
+    <rect x="300" y="300" width="120" height="50" rx="8"/>
+    <rect x="440" y="300" width="120" height="50" rx="8"/>
+    <rect x="580" y="300" width="120" height="50" rx="8"/>
+    <rect x="720" y="300" width="120" height="50" rx="8"/>
+    <rect x="360" y="370" width="160" height="70" rx="10"/>
+    <rect x="680" y="370" width="160" height="70" rx="10"/>
+  </g>
+  <text x="50%" y="580" dominant-baseline="middle" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" fill="#f9fafb">Custom Mechanical Keyboard</text>
+</svg>

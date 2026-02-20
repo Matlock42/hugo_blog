@@ -1,0 +1,28 @@
+baseURL = 'https://mysite.com/'
+languageCode = 'en-us'
+title = 'Joel Cranmer'
+enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 6
+
+[permalinks]
+  projects = '/projects/:slug.html'
+
+[taxonomies]
+  tag = 'tags'
+
+[params]
+  author = 'Joel Cranmer'
+  description = 'Project writeups and build logs.'
+  showReadingTime = true
+
+[menu]
+  [[menu.main]]
+    name = 'Home'
+    url = '/'
+    weight = 10
+  [[menu.main]]
+    name = 'Projects'
+    url = '/projects/'
+    weight = 20

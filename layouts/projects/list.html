@@ -1,0 +1,23 @@
+{{ define "main" }}
+  <header class="page-header">
+    <section class="hero">
+      <div class="container">
+        <h1>{{ .Title }}</h1>
+        {{ with .Content }}<div>{{ . }}</div>{{ end }}
+      </div>
+    </section>
+  </header>
+
+  <section class="container section-pad">
+    <h2>Project List</h2>
+    <div class="row">
+      {{ range .Pages.ByDate.Reverse }}
+        <div class="col-sm-6 col-md-4">
+          {{ partial "project-card.html" . }}
+        </div>
+      {{ else }}
+        <div class="col-xs-12"><p>No projects found.</p></div>
+      {{ end }}
+    </div>
+  </section>
+{{ end }}

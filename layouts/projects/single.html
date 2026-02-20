@@ -1,0 +1,16 @@
+{{ define "main" }}
+  <section class="project-hero">
+    <div class="container">
+      <h1>{{ .Title }}</h1>
+      <p class="lead">{{ .Params.summary }}</p>
+      <p>
+        <span class="label label-info">{{ .Params.status }}</span>
+        {{ range .Params.tech_stack }}<span class="label label-default">{{ . }}</span> {{ end }}
+      </p>
+    </div>
+  </section>
+
+  <article class="container section-pad project-body">
+    {{ .Content }}
+  </article>
+{{ end }}
