@@ -39,3 +39,31 @@ body {
 .site-footer {
   padding-bottom: 20px;
 }
+
+
+.project-figure {
+  margin: 24px 0;
+}
+
+.project-figure img {
+  width: 100%;
+  height: auto;
+}
+
+.project-figure figcaption {
+  color: #666;
+  font-size: 0.9em;
+  margin-top: 8px;
+  text-align: center;
+}
+
+.project-gallery {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin: 24px 0 32px;
+}
+
+.project-gallery .project-figure {
+  margin: 0;
+}
