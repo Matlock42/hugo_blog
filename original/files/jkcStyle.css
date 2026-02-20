@@ -1,0 +1,80 @@
+.site-header{
+  font-size: 4.5em;
+}
+
+.jkc-header dl {
+  font-size: 1.5em;
+}
+
+.jkc-header a {
+  color:inherit;
+}
+.container.no-head {
+  padding-top: 30px;
+}
+.container .col-sm-3 {
+  text-align:center;
+  margin-bottom: 20px;
+}
+
+.progress-lg {
+  height: 30px;
+}
+
+.progress-lg .progress-bar {
+  line-height: 30px;
+  font-size: 14px;
+}
+
+.text-left .progress-bar {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.bg-success,
+.bg-error,
+.bg-primary,
+.bg-info,
+.bg-warning
+{
+  padding:15px;
+}
+
+
+/* For Tablet and up: */
+@media (min-width: 768px) {
+  .fixed-bg .container,
+  .scroll-bg .container,
+  {
+      padding-bottom: 30px;
+  }
+  
+  .dyn-col{
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+    -webkit-column-rule: 1px solid #eee;
+    -moz-column-rule: 1px solid #eee;
+    column-rule: 1px solid #eee;
+  }
+}
+
+/* For Desktop: */
+@media (min-width: 1200px) {  
+  .dyn-col{
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+  }
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 991px) {
+    .hide-mobile
+    {
+      display:none;
+    }
+}
