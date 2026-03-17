@@ -1,4 +1,5 @@
 # hugo_blog
+[![Made with Hugo](https://img.shields.io/badge/Hugo-0.X-blue?logo=hugo&logoColor=white)](https://gohugo.io/ "Go to Hugo homepage")/
 
 Hugo-based static site for publishing project writeups to a personal website.
 
