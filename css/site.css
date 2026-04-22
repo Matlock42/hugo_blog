@@ -1,0 +1,41 @@
+body {
+  background: #f8f8f8;
+  color: #222;
+}
+
+.navbar-wrapper {
+  margin-bottom: 0;
+}
+
+.hero,
+.project-hero {
+  background: linear-gradient(135deg, #1f2937, #111827);
+  color: #fff;
+  padding: 60px 0;
+}
+
+.section-pad {
+  padding: 40px 0;
+}
+
+.project-card img {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  width: 100%;
+}
+
+.project-body {
+  background: #fff;
+  border-radius: 6px;
+  padding: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.project-body h2 {
+  margin-top: 36px;
+}
+
+.site-footer {
+  padding-bottom: 20px;
+}
