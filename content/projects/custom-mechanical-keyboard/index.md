@@ -22,10 +22,10 @@ I first heard about mechanical keyboards from a co-worker while working at GE. H
 After reading dozens of forum posts and doing hours of research, I found a solution I thought I might like. The [Atreus](https://atreus.technomancy.us/) keyboard is small, mechanical, and ergonomic. As a bonus, it is an open source keyboard: perfect for a tinkerer like me. I started planning and researching my build — pricing parts, fabrication options, and looking at ways to customize it and make it my own.
 
 {{< gallery >}}
-![Kailh Bronze switch](Kailh_PG1511_Bronzesm.jpg "Kailh Bronze switches")
-![Switch plate](assemb1sm.jpg "Modified stainless switch plate")
-![Installed switches](assemb2sm.jpg "Switches mounted into the plate")
-![Back of switch plate](assemb3sm.jpg "Backside hand-wiring progress")
+![Kailh Bronze switch](images/Kailh_PG1511_Bronzesm.jpg "Kailh Bronze switches")
+![Switch plate](images/assemb1sm.jpg "Modified stainless switch plate")
+![Installed switches](images/assemb2sm.jpg "Switches mounted into the plate")
+![Back of switch plate](images/assemb3sm.jpg "Backside hand-wiring progress")
 {{< /gallery >}}
 
 ## Design
@@ -43,10 +43,10 @@ For the brains of the keyboard, the controller, I chose the Pololu [A-Star 32U4 
 Rounding things out is the base. I designed my custom case out of walnut to contrast the steel switch plate that sits atop it. The wood base gives the keyboard a sturdy look without being too imposing. I was lucky enough to have an uncle that owns a CNC router. After a few prototypes in plywood and a few design changes, the final product came out perfectly. I added a few rubber feet on the back to prevent anything from getting scratched.
 
 {{< gallery >}}
-![Carbon keycaps](T0mb3ry_keycapssm.jpg "Carbon keyset")
-![Installing stabilizers](assemb5sm.jpg "Installing stabilizers")
-![Assembled wiring](assemb_wiringsm.jpg "Matrix wiring complete")
-![Keycap placement](keycap_placementsm.jpg "Placing keycaps")
+![Carbon keycaps](images/T0mb3ry_keycapssm.jpg "Carbon keyset")
+![Installing stabilizers](images/assemb5sm.jpg "Installing stabilizers")
+![Assembled wiring](images/assemb_wiringsm.jpg "Matrix wiring complete")
+![Keycap placement](images/keycap_placementsm.jpg "Placing keycaps")
 {{< /gallery >}}
 
 ## Implementation
@@ -65,14 +65,14 @@ The most time-consuming part of this build was definitely the wooden case. I rec
 Then came the sanding. And sanding. And more sanding. I started out with 120 grit and cleaned up all of the really rough parts, taking off a fair amount of material. I switched to 220 grit once the gouges and divots were removed. I sanded the inside and outside; the edges, top and bottom. Finally, I sanded the exterior with 400 grit sandpaper to get everything as smooth as possible. (The inside wasn't going to be seen so that didn't need to be as smooth.) The last step to completing the case was staining it. I had several options to choose from, and I wasn't quite sure how they would turn out. So I masked off three segments inside the case with painters tape and did a test run. I tried water-based Polyurethane, oil-based Polyurethane, and [Watco Danish Oil](https://www.rustoleum.com/product-catalog/consumer-brands/watco/danish-oil), and I really liked how the Danish Oil brought out the grain of the wood. I put two layers of that down, lightly sanding with 400 grit in between applications. To help give it a little more rugged finish, I applied a single layer of nearly clear, water-based Polyurethane over that. And when it was all cured, I assembled it one last time.
 
 {{< gallery >}}
-![Rough base](base_roughsm.jpg "Rough-cut walnut base")
-![Drill press insert jig](drillpresssm.jpg "Installing threaded inserts")
-![Stain tests](base_3stainssm.jpg "Comparing stain finishes")
-![Finished base](base_stainedsm.jpg "Finished and sealed walnut base")
+![Rough base](images/base_roughsm.jpg "Rough-cut walnut base")
+![Drill press insert jig](images/drillpresssm.jpg "Installing threaded inserts")
+![Stain tests](images/base_3stainssm.jpg "Comparing stain finishes")
+![Finished base](images/base_stainedsm.jpg "Finished and sealed walnut base")
 {{< /gallery >}}
 
 ## Final Thoughts
 
 This was a very fun and rewarding project. I learned a lot about designing for manufacturing. Originally, the sides of the keyboard were completely vertical. However, the routing bit that the CNC used had a slight 3° slant to it. I had to design around this and adjust the wall thickness. I also learned a lot about how keyboards function and the amount of thought that goes into making a multiplexed data entry device. Each key could be assigned its own input, but that is not necessary and you can easily get more inputs than I/O points with the added heft of some smart programming. If I had to do it over again, I would probably have chosen a different switch. One thing that was not made apparent in my research about the Kailh Speed Switches was that the actuation point — the point where the keypress is registered — actually happens before the tactile feedback. This leads to mis-typing quite easily.
 
-![Final keyboard](final_keyboardsm.jpg "Final custom Atreus keyboard")
+![Final keyboard](images/final_keyboardsm.jpg "Final custom Atreus keyboard")
