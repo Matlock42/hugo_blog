@@ -1,6 +1,7 @@
 {{- $source := .Destination -}}
 {{- $isRemote := or (hasPrefix $source "http://") (hasPrefix $source "https://") -}}
 {{- $resolved := $source -}}
+
 {{- if not $isRemote -}}
   {{- with .Page.Resources.GetMatch $source -}}
     {{- $resolved = .RelPermalink -}}
@@ -8,7 +9,20 @@
     {{- $resolved = relURL $source -}}
   {{- end -}}
 {{- end -}}
-<figure class="project-figure">
-  <img src="{{ $resolved | safeURL }}" alt="{{ .Text }}" loading="lazy" class="img-responsive img-thumbnail img-rounded">
-  {{- with .Title }}<figcaption>{{ . }}</figcaption>{{ end -}}
+
+{{- $figureClass := "project-figure" -}}
+{{- if .Page.Scratch.Get "inGallery" -}}
+  {{- $figureClass = printf "%s col-md-3" $figureClass -}}
+{{- end -}}
+
+<figure class="{{ $figureClass }}">
+  <img
+    src="{{ $resolved | safeURL }}"
+    alt="{{ .Text }}"
+    loading="lazy"
+    class="img-responsive img-thumbnail img-rounded"
+  >
+  {{- with .Title }}
+    <figcaption>{{ . }}</figcaption>
+  {{- end -}}
 </figure>
