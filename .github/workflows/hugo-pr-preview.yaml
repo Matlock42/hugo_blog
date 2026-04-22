@@ -49,7 +49,7 @@ jobs:
         run: |
           hugo \
             --buildDrafts \
-            --baseURL "${{ steps.pages.outputs.base_url }}/pr-${{ github.event.number }}/"
+            --baseURL "${{ steps.pages.outputs.base_url }}/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
