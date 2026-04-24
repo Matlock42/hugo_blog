@@ -1,5 +1,11 @@
 {{/* layouts/shortcodes/gallery.html */}}
 
+  {{- if .Page.Scratch.Get "inDynSection" -}}
+    </div>
+  </section>
+    {{ .Page.Scratch.Delete "inDynSection" }}
+  {{- end -}}
+
 {{ .Page.Scratch.Set "inGallery" true }}
 
 <div class="marketing project-gallery">
