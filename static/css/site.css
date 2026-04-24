@@ -42,6 +42,7 @@ body {
 
 .project-figure {
   margin: 24px 0;
+  text-align: center;
 }
 
 .project-figure figcaption {
