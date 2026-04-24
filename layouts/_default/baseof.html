@@ -8,6 +8,7 @@
     <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" crossorigin="anonymous" />
     <link rel="stylesheet" href="{{ "css/site.css" | relURL }}" />
+    <link rel="stylesheet" href="{{ "css/carousel.css" | relURL }}" />
   </head>
   <body>
     {{ partial "header.html" . }}
